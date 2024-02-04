@@ -1,0 +1,787 @@
+### GET ALL DATA BUSINESS
+GET http://localhost:5000/business
+
+### CREATE DATA BUSINESS
+POST http://localhost:5000/business
+Content-Type: application/json
+
+[
+  {
+    "alias": "fog-harbor-fish-house-san-francisco-2",
+    "name": "Fog Harbor Fish House",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/by8Hh63BLPv_HUqRUdsp_w/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/fog-harbor-fish-house-san-francisco-2?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 10169,
+    "categories": [
+      {
+        "alias": "seafood",
+        "title": "Seafood"
+      },
+      {
+        "alias": "wine_bars",
+        "title": "Wine Bars"
+      },
+      {
+        "alias": "cocktailbars",
+        "title": "Cocktail Bars"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.80889,
+    "longitude": -122.41025,
+    "transactions": [{ "name_transaction": "restaurant_reservation" }],
+    "price": "$$",
+    "address1": "39 Pier",
+    "address2": "Ste 202A",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94133",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14159692010",
+    "distance": 5804.678003375963
+  },
+  {
+    "alias": "kokkari-estiatorio-san-francisco",
+    "name": "Kokkari Estiatorio",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FTQfPJubJEtYeyHqwAsVKw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/kokkari-estiatorio-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5229,
+    "categories": [
+      {
+        "alias": "greek",
+        "title": "Greek"
+      },
+      {
+        "alias": "mediterranean",
+        "title": "Mediterranean"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.796996,
+    "longitude": -122.399661,
+    "transactions": [
+      { "name_transaction": "delivery" },
+      { "name_transaction": "pickup" }
+    ],
+    "price": "$$$",
+    "address1": "200 Jackson St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94111",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14159810983",
+    "distance": 5153.879756630951
+  },
+  {
+    "alias": "gary-danko-san-francisco",
+    "name": "Gary Danko",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Rqsfo-yDIBrYC6QHSlcw5A/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/gary-danko-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5951,
+    "categories": [
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      },
+      {
+        "alias": "french",
+        "title": "French"
+      },
+      {
+        "alias": "wine_bars",
+        "title": "Wine Bars"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.805823482811675,
+    "longitude": -122.42060564460564,
+    "transactions": [{ "name_transaction": "pickup" }],
+    "price": "$$$$",
+    "address1": "800 N Point St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94109",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14157492060",
+    "distance": 5185.692162177708
+  },
+  {
+    "alias": "hog-island-oyster-san-francisco-2",
+    "name": "Hog Island Oyster",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Hx-2wk2qjf5pOJLewaCoUQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/hog-island-oyster-san-francisco-2?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 7131,
+    "categories": [
+      {
+        "alias": "seafood",
+        "title": "Seafood"
+      },
+      {
+        "alias": "seafoodmarkets",
+        "title": "Seafood Markets"
+      },
+      {
+        "alias": "raw_food",
+        "title": "Live/Raw Food"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.795831,
+    "longitude": -122.393303,
+    "transactions": [{ "name_transaction": "pickup" }],
+    "price": "$$",
+    "address1": "1 Ferry Bldg",
+    "address2": "",
+    "address3": "Shop 11",
+    "city": "San Francisco",
+    "zip_code": "94111",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14153917117",
+    "distance": 5428.15670676801
+  },
+  {
+    "alias": "zazie-san-francisco",
+    "name": "Zazie",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/p-wLlWtS6hcPY5vXWkd92Q/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/zazie-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5239,
+    "categories": [
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "french",
+        "title": "French"
+      },
+      {
+        "alias": "wine_bars",
+        "title": "Wine Bars"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.76525687489142,
+    "longitude": -122.45000163750576,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "941 Cole St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94117",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14155645332",
+    "distance": 1286.2584634053135
+  },
+  {
+    "alias": "surisan-san-francisco",
+    "name": "Surisan",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/TRmQFBMztDCAlp_ol7IMbA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/surisan-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 3531,
+    "categories": [
+      {
+        "alias": "korean",
+        "title": "Korean"
+      },
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      },
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.80678,
+    "longitude": -122.41756,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "505 Beach St",
+    "address2": "",
+    "address3": null,
+    "city": "San Francisco",
+    "zip_code": "94133",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14157718449",
+    "distance": 5366.476620396218
+  },
+  {
+    "alias": "brendas-french-soul-food-san-francisco-6",
+    "name": "Brenda's French Soul Food",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AgHoMsQcQUXH84gF4XDeVw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/brendas-french-soul-food-san-francisco-6?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 12285,
+    "categories": [
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "southern",
+        "title": "Southern"
+      },
+      {
+        "alias": "cajun",
+        "title": "Cajun/Creole"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.78291531984934,
+    "longitude": -122.4188995000186,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "652 Polk St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94102",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14153458100",
+    "distance": 2893.406621737596
+  },
+  {
+    "alias": "house-of-prime-rib-san-francisco",
+    "name": "House of Prime Rib",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/HLrjaMoAgYSac0vx71YpCA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/house-of-prime-rib-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 8955,
+    "categories": [
+      {
+        "alias": "tradamerican",
+        "title": "American"
+      },
+      {
+        "alias": "steak",
+        "title": "Steakhouses"
+      },
+      {
+        "alias": "wine_bars",
+        "title": "Wine Bars"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.79338,
+    "longitude": -122.4225,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$$",
+    "address1": "1906 Van Ness Ave",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94109",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158854605",
+    "distance": 3827.4799374720046
+  },
+  {
+    "alias": "wildseed-san-francisco-2",
+    "name": "Wildseed",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/u08PO92_L37rJy1bVvCrpA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/wildseed-san-francisco-2?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 1470,
+    "categories": [
+      {
+        "alias": "vegan",
+        "title": "Vegan"
+      },
+      {
+        "alias": "cocktailbars",
+        "title": "Cocktail Bars"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.79768,
+    "longitude": -122.43245,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "2000 Union St",
+    "address2": null,
+    "address3": null,
+    "city": "San Francisco",
+    "zip_code": "94123",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158727350",
+    "distance": 4099.442097523809
+  },
+  {
+    "alias": "marufuku-ramen-san-francisco-5",
+    "name": "Marufuku Ramen",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ouK2VmW0SrI70jsJpTxJhw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/marufuku-ramen-san-francisco-5?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5026,
+    "categories": [
+      {
+        "alias": "ramen",
+        "title": "Ramen"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.78522,
+    "longitude": -122.43157,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "1581 Webster St",
+    "address2": "Ste 235",
+    "address3": null,
+    "city": "San Francisco",
+    "zip_code": "94115",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158729786",
+    "distance": 2720.8040341590026
+  },
+  {
+    "alias": "scomas-restaurant-san-francisco-3",
+    "name": "Scoma's Restaurant",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YRg4ICRgMgVN89LH4L6Rww/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/scomas-restaurant-san-francisco-3?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 4538,
+    "categories": [
+      {
+        "alias": "seafood",
+        "title": "Seafood"
+      },
+      {
+        "alias": "bars",
+        "title": "Bars"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.808952,
+    "longitude": -122.418487,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$$",
+    "address1": "1965 Al Scoma Way",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94133",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14157714383",
+    "distance": 5570.65144598489
+  },
+  {
+    "alias": "foreign-cinema-san-francisco",
+    "name": "Foreign Cinema",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cw5y2LSOIE-EVNjKK_d7SQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/foreign-cinema-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5531,
+    "categories": [
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "mediterranean",
+        "title": "Mediterranean"
+      },
+      {
+        "alias": "cocktailbars",
+        "title": "Cocktail Bars"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.75637,
+    "longitude": -122.41925,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$$",
+    "address1": "2534 Mission St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94110",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14156487600",
+    "distance": 1595.992511967024
+  },
+  {
+    "alias": "sweet-maple-san-francisco",
+    "name": "Sweet Maple",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/etyS0Af-PS74CTwxly2uoA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/sweet-maple-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 4774,
+    "categories": [
+      {
+        "alias": "tradamerican",
+        "title": "American"
+      },
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "burgers",
+        "title": "Burgers"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.78567,
+    "longitude": -122.435087,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "2101 Sutter St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94115",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14156559169",
+    "distance": 2771.357332444568
+  },
+  {
+    "alias": "nopa-san-francisco",
+    "name": "Nopa",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QA8Cvsvbx4Pi0e64OTDrZQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/nopa-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 5516,
+    "categories": [
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      },
+      {
+        "alias": "desserts",
+        "title": "Desserts"
+      },
+      {
+        "alias": "cocktailbars",
+        "title": "Cocktail Bars"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.77483,
+    "longitude": -122.43746,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$$",
+    "address1": "560 Divisadero St",
+    "address2": null,
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94117",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158648643",
+    "distance": 1559.1831881623302
+  },
+  {
+    "alias": "lapisara-eatery-san-francisco-2",
+    "name": "Lapisara Eatery",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/E2NDjr70XCrrxYAz2vsglw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/lapisara-eatery-san-francisco-2?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 1507,
+    "categories": [
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "burgers",
+        "title": "Burgers"
+      },
+      {
+        "alias": "thai",
+        "title": "Thai"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.78785129168795,
+    "longitude": -122.41323060347364,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "698 Post St",
+    "address2": null,
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94109",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14156553556",
+    "distance": 3625.6415907886158
+  },
+  {
+    "alias": "liholiho-yacht-club-san-francisco-2",
+    "name": "Liholiho Yacht Club",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fOYW8NHV-SDkRdclG4ueGA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/liholiho-yacht-club-san-francisco-2?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 2755,
+    "categories": [
+      {
+        "alias": "bars",
+        "title": "Bars"
+      },
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      },
+      {
+        "alias": "seafood",
+        "title": "Seafood"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.78843914681705,
+    "longitude": -122.41450866001664,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$$",
+    "address1": "871 Sutter St",
+    "address2": null,
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94109",
+    "country": "US",
+    "state": "CA",
+    "phone": "",
+    "distance": 3618.7710453076415
+  },
+  {
+    "alias": "kitchen-story-san-francisco",
+    "name": "Kitchen Story",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NFhzbxcz4No5Ny8_IHdPMw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/kitchen-story-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 4110,
+    "categories": [
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      },
+      {
+        "alias": "asianfusion",
+        "title": "Asian Fusion"
+      },
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.764290777795395,
+    "longitude": -122.43072410226956,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "3499 16th St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94114",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14155254905",
+    "distance": 628.7327818809532
+  },
+  {
+    "alias": "beretta-valencia-san-francisco-3",
+    "name": "Beretta Valencia",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HKxMJ8q8fzOY76hy7ACIag/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/beretta-valencia-san-francisco-3?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 4189,
+    "categories": [
+      {
+        "alias": "italian",
+        "title": "Italian"
+      },
+      {
+        "alias": "pizza",
+        "title": "Pizza"
+      },
+      {
+        "alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"
+      }
+    ],
+    "rating": 4.0,
+    "latitude": 37.7538556,
+    "longitude": -122.420628,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "1199 Valencia St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94110",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14156951199",
+    "distance": 1596.0798340858553
+  },
+  {
+    "alias": "lazy-bear-san-francisco-5",
+    "name": "Lazy Bear",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/I3yhxGxciarZn4J8QJWBkw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/lazy-bear-san-francisco-5?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 807,
+    "categories": [
+      {
+        "alias": "newamerican",
+        "title": "New American"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.76041,
+    "longitude": -122.41969,
+    "transactions": [],
+    "price": "$$$$",
+    "address1": "3416 19th St",
+    "address2": "",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94110",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158749921",
+    "distance": 1471.9330512507197
+  },
+  {
+    "alias": "roma-antica-san-francisco-3",
+    "name": "Roma Antica",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/uPPwdSVkRw4hrRQTynvJBA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/roma-antica-san-francisco-3?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+    "review_count": 1440,
+    "categories": [
+      {
+        "alias": "pizza",
+        "title": "Pizza"
+      },
+      {
+        "alias": "italian",
+        "title": "Italian"
+      },
+      {
+        "alias": "pastashops",
+        "title": "Pasta Shops"
+      }
+    ],
+    "rating": 4.5,
+    "latitude": 37.79989,
+    "longitude": -122.4408,
+    "transactions": [
+      { "name_transaction": "pickup" },
+      { "name_transaction": "restaurant_reservation" }
+    ],
+    "price": "$$",
+    "address1": "3242 Scott St",
+    "address2": "",
+    "address3": null,
+    "city": "San Francisco",
+    "zip_code": "94123",
+    "country": "US",
+    "state": "CA",
+    "phone": "+14158964281",
+    "distance": 4351.770689153734
+  }
+]
+
+
+### UPDATE DATA BUSINESS
+PATCH http://localhost:5000/business/139215ab-3b90-43fb-9987-126255185fbd
+Content-Type: application/json
+
+{
+  "alias" : "fog-harbor-fish-house-san-francisco-2",
+  "name" : "Fog Harbor Fish House EDITED",
+  "image_url" : "https://s3-media1.fl.yelpcdn.com/bphoto/Rqsfo-yDIBrYC6QHSlcw5A/o.jpg",
+  "is_closed" : false,
+  "url" : "https://www.yelp.com/biz/gary-danko-san-francisco?adjust_creative=DSj6I8qbyHf-Zm2fGExuug&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=DSj6I8qbyHf-Zm2fGExuug",
+  "review_count" : 5951,
+  "rating" : 4.5,
+  "latitude" : 37.80889,
+  "longitude" : -122.41025,
+  "price" : "$$",
+  "address1": "39 Pier",
+  "address2": "Ste 202A",
+    "address3": "",
+    "city": "San Francisco",
+    "zip_code": "94133",
+    "country": "US",
+    "state": "CA",
+  "phone" : "+14157492060",
+  "distance" : 5185.692162177708,
+  "categories" : [
+    { "alias": "newamerican", "title": "New American" },
+    { "alias": "french", "title": "French" },
+    { "alias": "wine_bars", "title": "Wine Bars" }
+  ],
+   "transactions" : [
+    { "name_transaction": "pickup"}
+  ]
+}
+
+### DELETE DATA BUSINESS BY ID
+DELETE http://localhost:5000/business/0f5b1c2c-5555-46de-9ce8-eeb5f1813054
